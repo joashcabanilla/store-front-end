@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.div-login{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.username,
+.password{
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #626C73;
+    background-color: #25333D;
+    outline: none;
+    color: #ffffff;
+}
+.username:focus,
+.password:focus{
+    border: 1px solid #58A983;
+}
